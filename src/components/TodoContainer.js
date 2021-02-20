@@ -24,9 +24,7 @@ class TodoContainer extends React.Component {
 
   render() {
     return (
-      <ul>
-        <TodosList todos={this.state.todos} />
-      </ul>
+      <TodosList todos={this.state.todos} />
     )
   }
 }
